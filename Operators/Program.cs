@@ -18,14 +18,47 @@ namespace Operators
             int value1 = k++;
             int value2 = ++k;
 
-            string test1 = String.Format("{0}, {1}", value1, value2);
-
-
 
             var test = typeof(Program);
             var test2 = new Program().GetType();
 
             Console.ReadLine();
+        }
+    }
+
+    public abstract class BaseClass
+    {
+        public virtual int PropertyOne { get; set; }
+        public abstract int Propertytwo { get; set; }
+        public int PropertyThree { get; set; }
+    }
+
+    public class DerivedClass : BaseClass
+    {
+        public new int PropertyThree { get; set; }
+
+        public override int PropertyOne
+        {
+            get
+            {
+                return base.PropertyOne;
+            }
+            set
+            {
+                base.PropertyOne = value;
+            }
+        }
+
+        public override int Propertytwo
+        {
+            get
+            {
+                throw new NotImplementedException();
+            }
+            set
+            {
+                throw new NotImplementedException();
+            }
         }
     }
 }
