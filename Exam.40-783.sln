@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indexers", "Indexers\Indexe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumerationsDemo", "EnumerationsDemo\EnumerationsDemo.csproj", "{ACCB27CF-7089-4F30-B3C1-EB3A96F79B28}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributesDemo", "AttributesDemo\AttributesDemo.csproj", "{9CA3F6C1-4ED6-4B58-AD62-6FBFDB8F4BA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesDemo", "DelegatesDemo\DelegatesDemo.csproj", "{3E76129C-26FF-45B9-9166-1F4A38DF0B75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +47,14 @@ Global
 		{ACCB27CF-7089-4F30-B3C1-EB3A96F79B28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACCB27CF-7089-4F30-B3C1-EB3A96F79B28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACCB27CF-7089-4F30-B3C1-EB3A96F79B28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CA3F6C1-4ED6-4B58-AD62-6FBFDB8F4BA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CA3F6C1-4ED6-4B58-AD62-6FBFDB8F4BA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CA3F6C1-4ED6-4B58-AD62-6FBFDB8F4BA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CA3F6C1-4ED6-4B58-AD62-6FBFDB8F4BA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E76129C-26FF-45B9-9166-1F4A38DF0B75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E76129C-26FF-45B9-9166-1F4A38DF0B75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E76129C-26FF-45B9-9166-1F4A38DF0B75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E76129C-26FF-45B9-9166-1F4A38DF0B75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
