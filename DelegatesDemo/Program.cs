@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DelegatesEventsExpressions;
 
-namespace DelegatesDemo
+namespace DelegatesEventsExpressions.DelegatesDemo
 {
     class Program
     {
@@ -81,8 +82,15 @@ namespace DelegatesDemo
             //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
             //that's why i.e. option 2 works
             AgeExclusion del3 = filterByAge.OlderThan;
-            //int index1 = employees.FindIndex(del3);
-            //Console.WriteLine(index1.ToString());
+            //  int index1 = employees.FindIndex(del3);
+            //  Console.WriteLine(index1.ToString());
+            //can pass a predicate though
+            Predicate<Employee> match = e => e._age > 29;
+            //or
+            Predicate<Employee> match2 = filterByAge.OlderThan;
+            int index1 = employees.FindIndex(match);
+            int index1prim = employees.FindIndex(match2);
+            Console.WriteLine(index1.ToString() + ", " + index1prim.ToString());
 
             //option 2 - using method to create predicate
             int index2 = employees.FindIndex(filterByAge.OlderThan);
