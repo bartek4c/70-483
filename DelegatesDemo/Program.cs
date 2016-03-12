@@ -15,6 +15,12 @@ namespace DelegatesDemo
 
         static void Main(string[] args)
         {
+            Employee bartosz = new Employee("Bartosz", 1);
+            dynamic anna = new Employee("Anna", 2);
+
+            Console.WriteLine(bartosz._name);
+            Console.WriteLine(anna._namee);
+
             ///Simple example
             SimpleExample example = new SimpleExample("Bartosz");
             //Function pointers - del points to UppercaseFirst and then to UppercaseLast
