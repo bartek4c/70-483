@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7AA104CB-4BF3-46F3-BD9D-BD6B296E757E}</ProjectGuid>
+    <ProjectGuid>{C8AD0B4B-4141-4B5E-9D40-19ABD66BE4CE}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GenericsDemo</RootNamespace>
-    <AssemblyName>GenericsDemo</AssemblyName>
+    <RootNamespace>UserDefinedConversionsDemo</RootNamespace>
+    <AssemblyName>UserDefinedConversionsDemo</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,8 +41,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CovarianceContravariance.cs" />
-    <Compile Include="DynamicTyping.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

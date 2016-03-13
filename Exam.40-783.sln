@@ -21,6 +21,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DelegatesEventsExpressions"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventsDemo", "EventsDemo\EventsDemo.csproj", "{6C8B5A08-E726-42FE-AE35-E5565693CDDD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserDefinedConversionsDemo", "UserDefinedConversionsDemo\UserDefinedConversionsDemo.csproj", "{C8AD0B4B-4141-4B5E-9D40-19ABD66BE4CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{6C8B5A08-E726-42FE-AE35-E5565693CDDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C8B5A08-E726-42FE-AE35-E5565693CDDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C8B5A08-E726-42FE-AE35-E5565693CDDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8AD0B4B-4141-4B5E-9D40-19ABD66BE4CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8AD0B4B-4141-4B5E-9D40-19ABD66BE4CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8AD0B4B-4141-4B5E-9D40-19ABD66BE4CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8AD0B4B-4141-4B5E-9D40-19ABD66BE4CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
