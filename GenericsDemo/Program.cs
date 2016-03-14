@@ -9,38 +9,38 @@ namespace GenericsDemo
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            var covariance = new Covariance();
+        //static void Main(string[] args)
+        //{
+        //    var covariance = new Covariance();
 
-            var ints = new MyList<int>(10);
-            ints.Add(1);
-            ints.Add(2);
-            ints.Add(3);
-            Console.WriteLine(ints.Count);
+        //    var ints = new MyList<int>(10);
+        //    ints.Add(1);
+        //    ints.Add(2);
+        //    ints.Add(3);
+        //    Console.WriteLine(ints.Count);
 
-            var doubles = new MyList<double>(10);
-            doubles.Add(1.15);
-            doubles.Add(2.20);
-            doubles.Add(3.25);
-            Console.WriteLine(doubles.Count);
+        //    var doubles = new MyList<double>(10);
+        //    doubles.Add(1.15);
+        //    doubles.Add(2.20);
+        //    doubles.Add(3.25);
+        //    Console.WriteLine(doubles.Count);
 
-            var ints_c = new MyConstrainedList<int>(10);
-            ints_c.Add(1);
-            ints_c.Add(2);
-            ints_c.Add(3);
-            Console.WriteLine(ints_c.Count);
+        //    var ints_c = new MyConstrainedList<int>(10);
+        //    ints_c.Add(1);
+        //    ints_c.Add(2);
+        //    ints_c.Add(3);
+        //    Console.WriteLine(ints_c.Count);
 
-            var doubles_c = new MyConstrainedList<double>(10);
-            doubles_c.Add(1.15);
-            doubles_c.Add(2.20);
-            doubles_c.Add(3.25);
-            Console.WriteLine(doubles_c.Count);
+        //    var doubles_c = new MyConstrainedList<double>(10);
+        //    doubles_c.Add(1.15);
+        //    doubles_c.Add(2.20);
+        //    doubles_c.Add(3.25);
+        //    Console.WriteLine(doubles_c.Count);
 
-            var storer = new Storer<Temperature, MyList<int>>();
+        //    var storer = new Storer<Temperature, MyList<int>>();
 
-            Console.ReadLine();
-        }
+        //    Console.ReadLine();
+        //}
     }
 
     class MyList<T>

@@ -27,14 +27,14 @@ namespace GenericsDemo
 
             object[] objectArray = new string[] { "string 1", "string 2" };
             objectArray[0] = "string 3";
-            objectArray[1] = new object();
+            objectArray[1] = "string 4";
         }
         
     }
 
     public interface IEnumerable<out T>
     {
-        IEnumerator<T> GetEnumerator; //method returning value
+        IEnumerator<T> GetEnumerator<T>(); //method returning value
     }
 
     public interface IEnumerator<out T>
