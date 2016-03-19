@@ -32,15 +32,23 @@ namespace LinqToXML
             }
 
             var bookNames3 = xml
-                .XPathSelectElements("book/name")
+                .XPathSelectElements("book/name") // <-- Great - full path
                 .Select(name => name.Value);
             foreach (var bookName in bookNames3)
             {
                 Console.WriteLine(bookName);
             }
 
+            //using identifiers
+            var @int = 2;
+
             Console.WriteLine(test1);
             Console.WriteLine(test2);
+        }
+
+        private void MethodToBeTested()
+        {
+
         }
 
         static public string CreateXMLExample_DOM()
