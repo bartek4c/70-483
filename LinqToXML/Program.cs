@@ -42,6 +42,8 @@ namespace LinqToXML
             //using identifiers
             var @int = 2;
 
+            var test = new Object();
+
             Console.WriteLine(test1);
             Console.WriteLine(test2);
         }
