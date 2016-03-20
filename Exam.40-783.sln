@@ -1,4 +1,4 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassDemo", "ClassDemo\ClassDemo.csproj", "{DFE86714-FED1-4ABF-9C3A-D580E13F43F7}"
@@ -31,7 +31,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqToObjects", "LinqToObje
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqToXML", "LinqToXML\LinqToXML.csproj", "{EC5FB35A-B528-4F80-B969-7A481BC410E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EqualityDemo", "EqualityDemo\EqualityDemo.csproj", "{A98DA95B-195B-4301-908D-DE22AA7E4198}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EqualityAndComparabilityDemo", "EqualityAndComparabilityDemo\EqualityAndComparabilityDemo.csproj", "{A98DA95B-195B-4301-908D-DE22AA7E4198}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
