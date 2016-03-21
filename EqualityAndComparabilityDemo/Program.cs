@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -58,8 +59,15 @@ namespace EqualityAndComparabilityDemo
             //passing function directly
             emps.Sort(Extensions.CompareEmployeesByName2);
 
+            //special comparer - to ignore case sensitivity
+            new Dictionary<string, string>(StringComparer.CurrentCultureIgnoreCase);
+
+            var test = new ObservableCollection<Employee>();
+            test.Add(new Employee("bartosz", 1));
+            test.Add(new Employee("anna", 2));
+
             var e0 = emps.FirstOrDefault();
-            var test = e0.TestExtension(e2);
+            var test2 = e0.TestExtension(e2);
             
             foreach (var e in emps)
             {
