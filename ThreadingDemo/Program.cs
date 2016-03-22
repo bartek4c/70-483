@@ -25,7 +25,15 @@ namespace ThreadingDemo
             single1.Name = "Name";
             single1.Id = 1;
 
+            var single1_1 = Singleton1.Instance;
+            var single1_2 = Singleton1.Instance;
+
             var single2 = Singleton1.Instance;
+            single2.Name = "Name";
+            single2.Id = 2;
+
+            var single2_1 = Singleton1.Instance;
+            var single2_2 = Singleton1.Instance;
 
             Console.Read();
         }
@@ -80,6 +88,24 @@ namespace ThreadingDemo
         public static Singleton1 Instance
         {
             get { return _instance; }
+        }
+
+        public string Name { get; set; }
+        public int Id { get; set; }
+    }
+
+    public class Singleton2
+    {
+        private static readonly Lazy<Singleton2> _singleton = new Lazy<Singleton2>(() => new Singleton2());
+
+        public Singleton2()
+        {
+
+        }
+
+        public static Singleton2 Instance
+        {
+            get { return _singleton.Value; }
         }
 
         public string Name { get; set; }
