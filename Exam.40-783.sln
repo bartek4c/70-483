@@ -36,6 +36,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplicationDemo", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadingDemo", "ThreadingDemo\ThreadingDemo.csproj", "{14AE03D0-1DE5-488D-9F70-42D8174A991D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncDemo", "AsyncDemo\AsyncDemo.csproj", "{ADEF8B4B-1481-46D7-BC8C-BC5814B4BA28}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -106,6 +108,10 @@ Global
 		{14AE03D0-1DE5-488D-9F70-42D8174A991D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14AE03D0-1DE5-488D-9F70-42D8174A991D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14AE03D0-1DE5-488D-9F70-42D8174A991D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADEF8B4B-1481-46D7-BC8C-BC5814B4BA28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADEF8B4B-1481-46D7-BC8C-BC5814B4BA28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADEF8B4B-1481-46D7-BC8C-BC5814B4BA28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADEF8B4B-1481-46D7-BC8C-BC5814B4BA28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
