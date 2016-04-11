@@ -38,6 +38,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadingDemo", "ThreadingD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncDemo", "AsyncDemo\AsyncDemo.csproj", "{ADEF8B4B-1481-46D7-BC8C-BC5814B4BA28}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BCL_Demo", "BCL_Demo\BCL_Demo.csproj", "{DF354574-4105-4E1A-AFE2-1A9F3A64CD7E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -112,6 +114,10 @@ Global
 		{ADEF8B4B-1481-46D7-BC8C-BC5814B4BA28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADEF8B4B-1481-46D7-BC8C-BC5814B4BA28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADEF8B4B-1481-46D7-BC8C-BC5814B4BA28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF354574-4105-4E1A-AFE2-1A9F3A64CD7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF354574-4105-4E1A-AFE2-1A9F3A64CD7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF354574-4105-4E1A-AFE2-1A9F3A64CD7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF354574-4105-4E1A-AFE2-1A9F3A64CD7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
